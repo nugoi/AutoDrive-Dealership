@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #f4f4f4;
+}
+
 .header {
   background-color: black;
   display: flex;
@@ -72,10 +76,10 @@
 
 .section {
   width: 100vw;
-  height: 10vh;
   justify-content: center;
   align-items: center;
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 7px;
 }
 
 .cars-1 {
