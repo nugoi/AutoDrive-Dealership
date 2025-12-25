@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.Logo {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url("https://www.hdcarwallpapers.com/walls/lamborghini_revuelto_supercar_4k-HD.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.815);
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.section {
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.cars-1 {
+  justify-content: center;
+  padding: 60px;
+  background-color: #f4f4f4;
+  display: flex;
+  gap: 25px;
+}
+
+.cars-2 {
+  justify-content: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  display: flex;
+  gap: 45px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.car-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  background-color: #fff;
+  width: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.car-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.car-card h3 {
+  margin: 15px 0 5px;
+}
+
+.car-card p {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.car-card button {
+  margin: 15px 0 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.car-card button:hover {
+  background-color: #f39c12;
+  color: #000;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 1190px) {
+}
+
+@media (min-height: 576px) and (max-width: 758px) {
+  .nav-links {
+    flex-direction: column;
+  }
+  .cars-1 {
+    flex-direction: column;
+  }
+  .cars-2 {
+    flex-direction: column;
+  }
+}
