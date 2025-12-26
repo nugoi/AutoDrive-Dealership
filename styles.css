@@ -116,7 +116,7 @@ body {
 
 .car-card {
   background-color: #fff;
-  width: 450px;
+  width: 380px;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -167,6 +167,10 @@ body {
 }
 
 @media (min-height: 576px) and (max-width: 758px) {
+  .hero-text {
+    position: relative;
+    right: 40px;
+  }
 
   .nav-links {
     flex-direction: column;
