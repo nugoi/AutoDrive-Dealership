@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -84,7 +85,8 @@ body {
 
 .cars-1 {
   justify-content: center;
-  padding: 60px;
+  padding-right: 60px;
+  padding-left: 25px;
   background-color: #f4f4f4;
   display: flex;
   gap: 25px;
@@ -93,6 +95,7 @@ body {
 .cars-2 {
   justify-content: center;
   padding: 50px;
+  padding-left: 26px;
   background-color: #f4f4f4;
   display: flex;
   gap: 45px;
@@ -161,9 +164,6 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1190px) {
- .header{ 
-  width: auto;
- }
 }
 
 @media (min-height: 576px) and (max-width: 758px) {
@@ -173,6 +173,7 @@ body {
   }
   .cars-1 {
     flex-direction: column;
+    padding-right: 20px;
   }
   .cars-2 {
     flex-direction: column;
