@@ -5,6 +5,10 @@
   font-family: Arial, sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 header {
   background: #000000;
   color: #fff;
@@ -38,6 +42,7 @@ nav a:hover {
 }
 
 .contact-page {
+  height: 77.7vh;
   padding: 60px;
   max-width: 800px;
   margin: auto;
