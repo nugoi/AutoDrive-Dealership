@@ -112,3 +112,78 @@ footer {
     flex-direction: column;
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #000000;
+  color: #ffffff;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f49f15;
+}
+
+.about-page {
+  padding: 80px 60px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-page h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-page p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+footer {
+  background: #000000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 60px;
+}
+
+@media (max-width: 1200px) {
+  
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about-page {
+    padding: 40px 20px;
+  }
+}
